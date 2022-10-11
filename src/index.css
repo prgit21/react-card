@@ -8,6 +8,8 @@
     border: 1px solid white;
     border-radius: 8px ;
     box-shadow: 2px 2px 8px white;
+    flex-direction: row;
+
 }
 
 .card-title{
@@ -52,4 +54,11 @@
     padding-top: 35px;
     margin:30px 30px 30px 30px;
     width:45%;
+    justify-items: right;
+}
+
+
+
+.box-model{
+    
 }
