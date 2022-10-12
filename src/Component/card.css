@@ -1,0 +1,49 @@
+
+*{
+    font-style: sans;
+
+}
+.Card{
+    background-color: rgb(154, 155, 157);
+    border: 1px solid #9a9b9d;
+    border-radius: 8px ;
+    box-shadow: 2px 2px 8px white;
+    flex-direction: row;
+
+}
+
+
+.card:hover{
+    box-shadow: 1px 1px 4px rgb(89, 18, 82);
+}
+
+.body-children{
+    background-color: yellowgreen;
+    padding-top: 35px;
+    
+    border:20px solid yellowgreen;
+    margin: 30px 30px 30px 30px;
+    width:37%;
+}
+
+.row-two{
+    background-color: rgb(206, 52, 52);
+    border:0 solid;
+    height: 150px;
+    padding-left: 5px;
+    padding-top: 35px;
+    margin:30px 30px 30px 30px;
+    width:45%;
+    position:relative;
+    top:30%;
+    right:0%;    
+    
+
+}
+
+
+
+
+first-row{
+    background-color: wheat;
+}

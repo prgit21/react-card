@@ -1,40 +1,32 @@
 
-import Card from './Component/index'
+import Card from './Component/Card';
 import './App.css';
-import {Box} from '@mui/material'
 
-function App() {
+const App= () => {
   return (
-    
-    <div className ='grey-box'style={{ margin: '50px' }}>
-      
+  <div className ='grey-box'>
+    <div className='first-row'>
       <Card
-          
           title='Obesity Childhood statistics'
-
-          style={{ width: '45%' }}>
           
-          <h2>1 in 3 </h2>
-          children are at a risk of being overweight<br></br>
-
-
-
-          subcontent 2
+          
+          >
+          
+          
         </Card>
-  
-
-{/* <div className='box-model' style= {{ marginLeft: '40%', marginTop: '60px', width: '30%' }}>
-    <Box color="white" bgcolor="palevioletred" p={1}>
-      Obesity in children
-      
-    </Box>
-    </div>
-  */}
+       {/* <Card className = 'card2'
+        title='second card'
+        
+        >
+        
 
 
-
-
+  </Card> */}
       </div>
+    <div>
+      
+    </div>
+    </div>
   );
 }
 
