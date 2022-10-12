@@ -12,11 +12,6 @@
   color: whitesmoke;
 }
 
-.split {
- display: flex;
- flex-direction: column;
-}
-
 .subFirstClass {
   display: flex;
   flex-direction: row;
@@ -36,5 +31,29 @@
   padding: 2rem;
 }
 
+.SecondClass {
+  background-color: lightcoral;
+}
 
+.MainClass .subSecondClass {
+  margin: 10px;
+  border: 5px ;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dangerClass {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.dangerClass h5 {
+  padding: 0.25rem;
+}
+
+.SecondClass p{
+  text-align: left;
+  padding: 0.2rem;
+  padding-bottom: 1rem;
+}
 

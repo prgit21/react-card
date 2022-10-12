@@ -1,30 +1,9 @@
 import './card.css'
+import { FaBeer } from 'react-icons/fa'
+import {MdSmokeFree, MdCleanHands} from 'react-icons/md'
 
 const Card=({title,children,border,style}) =>{
     return(<>
-    {/* <div className='card'>
-        <div className='card-title'>
-            <h1> {title}</h1>
-        </div>
-        <div className='children'>
-            {children}
-        </div>
-    </div>    
-        <div className='row-0'>
-            row 0 elements
-        </div>
-    <div className='row3'>
-            row3
-    </div>
-    <div className='row4'>
-        row 4
-    </div>
-    <div>
-    <div className='row-two'>
-            row2
-        </div>
-    </div> */}
-
     <div className='MainClass'>
         <div className='Title'>
             <h2>Obesity</h2>
@@ -41,8 +20,25 @@ const Card=({title,children,border,style}) =>{
             </div>
         </div>
         <div className="SecondClass">
-            <h2>checking second class</h2>
-            
+            <div className='subSecondClass'>
+            <h2>Obesity is linked to more chronic conditions than:</h2>
+            <div className="dangerClass">
+                {/* include images later */}
+                <div>
+                    <MdSmokeFree />
+                    <h5>Smoking</h5>
+                </div>
+                <div> 
+                    <MdCleanHands />
+                    <h5>Poverty</h5>
+                </div>
+                <div>
+                <FaBeer />
+                    <h5>Drinking</h5>
+                </div>
+            </div>
+            </div>
+            <p>increasing the risk of more than <b>20 preventable diseases</b>, including sleep apnea, heart disease, asthma, Type 2 diabetes, high blood pressure</p>
         </div>
         <div className="ThirdClass">
             <h2>checking third class</h2>

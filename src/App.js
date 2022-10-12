@@ -5,27 +5,7 @@ import './App.css';
 const App= () => {
   return (
   <div className ='grey-box'>
-    <div className='first-row'>
-      <Card
-          title='Obesity Childhood statistics'
-          
-          
-          >
-          
-          
-        </Card>
-       {/* <Card className = 'card2'
-        title='second card'
-        
-        >
-        
-
-
-  </Card> */}
-      </div>
-    <div>
-      
-    </div>
+    <Card />
     </div>
   );
 }
