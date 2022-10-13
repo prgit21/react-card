@@ -10,6 +10,7 @@
   padding: 2rem;
   text-align: center;
   color: whitesmoke;
+
 }
 
 .subFirstClass {
@@ -23,12 +24,18 @@
 
 .subFirstClass .firstOne {
   background-color: darkorange;
-  padding: 2rem;
+  padding: 1.5rem;
+  
 }
 
 .subFirstClass .secondOne {
   background-color:lightblue ;
-  padding: 2rem;
+  padding: 1.5rem;
+  
+}
+
+.secondOne{
+  width: 35%;
 }
 
 .SecondClass {
@@ -57,3 +64,93 @@
   padding-bottom: 1rem;
 }
 
+.Title{
+  color:crimson
+}
+
+.firstOne p{
+  line-height: 0%;
+
+}
+.firstOne.h4{
+  font:italic;      /* how to style invdividual text??? */
+}
+
+.ThirdClass{
+  background-color: rgb(115, 115, 220);
+  margin: 10px ;
+}
+
+.leftSubThree{
+  color:whitesmoke;
+  text-align: left;
+  
+}
+
+
+.fourthLeft{
+  text-align: left;
+  margin: 10px;
+  border:10px;
+  display: flex;
+  
+}
+
+
+.fourthRight{
+  background-color: goldenrod;
+}
+
+.MainClass.fourthLeft{
+  display: flex;
+  justify-content: space-around;
+  border: 10px;
+  margin:10px;
+  
+}
+
+.MainClass.fourthRight{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.subFourth{
+  display: flex;
+  justify-content:flex-end;
+  border: 10px;
+  margin: 10px;
+  height: 200px;
+  background-color:darkorange;
+
+}
+
+.fifthClass{
+  background-color: rgb(70, 113, 128);
+  color: whitesmoke;
+  padding-right:2rem ;
+}
+
+.MainClass.fifthClass.fifthLeft{
+  display: flex;
+  justify-content: space-around;
+  border: 10px;
+  margin: 10px;
+  justify-content: flex-end;
+}
+
+
+.fifthClass{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.fifthLeft{
+  padding-right: 2rem;
+}
+
+.sixthClass{
+  background-color: darkorange;
+  margin: auto;
+}
